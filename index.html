@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hackathon</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/bootstrap/css/bootstrap.min.css">
+    <script src="./styles/bootstrap/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light nav-bg py-3 fixed-top">
+        <div class="container-fluid nav__content">
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse justify-content-evenly" id="navbarNavAltMarkup">
+                <div class="navbar-nav ">
+                    <a class="nav-link" href="#goals">Goals</a>
+                    <a class="nav-link" href="#about__me">About me</a>
+                    <a class="nav-link" href="#hobbys">Hobbys</a>
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+
+                    <div class="dropdown">
+                        <a class="nav-link active dropdown-toggle" aria-current="page" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#skills">Skills</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#skills">VSCode</a></li>
+                            <li><a class="dropdown-item" href="#skills">Pinnacle Studio</a></li>
+                            <li><a class="dropdown-item" href="#skills">Figma</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </nav>
+    <section class="hero hero-bg">
+        <div class="hero-foto foto-bg container">
+        <div class="d-flex flex-column align-items-center">   
+    <h1>Nazik</h1>
+    <p class="fs-4 pt-5">Future Programmer</p>
+    
+    <input type="button" value="more info" class="button" onclick="window.location.href = 'https://instagram.com/nemmupan?igshid=18mt946v203zp';" >
+    </div> 
+        </div>
+        
+
+    </section>
+    <section class="cards hero-bg" id="goals">
+        <h1 class="text-center font-color fw-bold">Goals</h1>
+        <div class="cards__inner container d-flex flex-lg-row flex-column justify-content-lg-between align-items-center">
+            <div class="cards__inner__item flex-column d-flex align-items-center mt-5">
+                <img src="./assets/images/programming.jpg" alt="photo" class=" img-fluid">
+                <h3 class="my-3 font-color fw-bold">Web development</h3>
+                <p class="my-3 fs-5">Studying this area is one <br> of the main goals</p>
+                <input type="button" value="more" class="button" onclick="window.location.href = 'https://www.w3schools.com/whatis/';" >
+                
+
+            </div>
+            <div class="cards__inner__item flex-column d-flex align-items-center font-color mt-5">
+                <img src="./assets/images/darmstadt.jpg" alt="photo" class=" img-fluid">
+                <h3 class="my-3 fw-bold font-color">Darmstadt University</h3>
+                <p class="my-3 fs-5 font-color text-center">I want to study at the best <br> technical university  in Germany</p>
+                <input type="button" value="more" class="button" onclick="window.location.href = 'https://www.tu-darmstadt.de/index.en.jsp';">
+                
+
+            </div>
+            <div class="cards__inner__item flex-column d-flex align-items-center mt-5">
+                <img src="./assets/images/languages.jpeg" alt="photo" class=" img-fluid">
+                <h3 class="my-3 font-color fw-bold">Languages</h3>
+                <p class="my-3 fs-5 font-color">I want to be a polyglot and <br> travel all over the world </p>
+                <input type="button" value="more" class="button" onclick="window.location.href = 'https://polyglotclub.com/index.php?dashboard=simple';">
+                
+
+            </div>
+
+        </div>
+
+    </section>
+    <section class="info hero-bg" id="about__me">
+        <div class="info__inner d-flex flex-column flex-md-row container info-bg">
+            <img src="./assets/images/foto.jpg" alt="info__foto" class="img-fluid w-50">
+            
+            <div class="info__text flex-column d-flex align-items-center m-auto ">
+                <h3 class="m-4 fw-bold fs-3" >About me</h3>
+                <p class="text-center fs-5 m-4">Hi, I'm Nazik – future web developer from Bishkek. <br>
+                   
+                
+                    I'm studying at courses "Front-end development on JS" in Makers Bootcamp. <br>
+                    
+                    Ready to implement excellent projects
+                     with wonderful people.</p>
+                <input type="button" value="Contact" class="button m-4" onclick="window.location.href = 'https://vk.com/id367262025';" >
+
+            </div>
+        </div>
+
+    </section>
+    <section class="products hero-bg" id="hobbys">
+        <h1 class="p-4 fw-bold font-color text-center fw-4">Hobbys</h1>
+        <div class="products__inner container d-flex flex-column align-items-center mt-5 ">
+            <div class="d-flex flex-column  flex-lg-row products__inner__block">
+            <div class="products__inner__item flex-column d-flex align-items-center  haki-bg ">
+
+                <img src="./assets/images/video.jfif" alt="photo" class="products_img img-fluid">
+                <h3 class="my-3  fw-bold">Video shooting</h3>
+                <p class="my-3 text-center fs-5 dark-font">This is especially useful <br> for various projects</p>
+                
+                
+
+            </div>
+            <div class="products__inner__item flex-column d-flex align-items-center  haki-bg">
+                <img src="./assets/images/gardening.jpg" alt="photo" class="products_img img-fluid">
+                <h3 class="my-3  fw-bold">Gardening</h3>
+                <p class="my-3 text-center fs-5 dark-font">I have a small garden <br> at home</p>
+                
+                
+
+            </div></div>
+            <div class="d-flex flex-column flex-lg-row products__inner__block">
+            <div class="products__inner__item flex-column d-flex align-items-center  haki-bg ">
+                <img src="./assets/images/tennis.jpeg" alt="photo" class="products_img img-fluid">
+                <h3 class="my-3  fw-bold">Table tennis</h3>
+                <p class="my-3 text-center fs-5 dark-font">The home tennis court is my <br> frequent leisure activity</p>
+                
+                
+
+            </div>
+            <div class="products__inner__item flex-column d-flex align-items-center  haki-bg ">
+                <img src="./assets/images/books.jpg" alt="photo" class="products_img img-fluid">
+                <h3 class="my-3  fw-bold">Books</h3>
+                <p class="my-3 text-center fs-5 dark-font">All i need on a desert island <br> is a book</p>
+                
+                
+
+            </div></div>
+
+        </div>
+        
+    </section>
+    <section class="skills hero-bg" id="skills">
+        <h1 class="p-4 fw-bold font-color text-center fw-4">Skills</h1>
+        <p class="my-3 text-center font-color ">I work in such programs as</p>
+        <div class="flex-column align-items-center d-flex flex-lg-row justify-content-lg-between container  skills__item">
+        <div class="pt-5 flex-column align-items-center">
+            <a href="https://code.visualstudio.com"><img class="img-fluid" src="./assets/icons/VSCode.png" alt="vscode"></a>
+            <h3 class=" pt-5 fw-bold font-color text-center fw-4"> VSCode</h1>
+        </div>
+        <div class="pt-5 flex-column align-items-center">
+            <a href="https://www.pinnaclesys.com/en/"><img class="img-fluid" src="./assets/icons/pinnacle.png" alt="pinnacle"></a>
+            <h3 class=" pt-5 fw-bold font-color text-center fw-4"> Pinnacle <br> Studio</h1>
+        </div>
+        <div class="pt-5 flex-column align-items-center">
+            <a href="https://www.figma.com"><img class="img-fluid" src="./assets/icons/Figma.png" alt="figma"></a>
+            <h3 class=" pt-5 fw-bold font-color text-center fw-4"> Figma</h1>
+        </div>
+</div>
+    </section>
+    <section class="carousel hero-bg" id="portfolio">
+        <h1 class="p-4 fw-bold font-color text-center fw-4">Portfolio</h1>
+        <div id="carouselExampleIndicators" class="carousel slide w-75 w-lg-50 mx-auto animation" data-bs-ride="carousel">
+			<div class="carousel-indicators">
+				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+			</div>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="./assets/images/housevop.png" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="./assets/images/resum.png" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="./assets/images/store.png" class="d-block w-100" alt="...">
+				</div>
+			</div>
+			<button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next cnopca" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
+
+
+    </section>
+    <footer class="hero-bg">
+        <div class=" d-flex ">
+            <div class="w-100 map ">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2924.320183239623!2d74.59607751512142!3d42.86608567915619!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389eb7d04d040001%3A0x435e5287f35c7d3c!2z0JrRg9GA0YHRiyDQv9GA0L7Qs9GA0LDQvNC80LjRgNC-0LLQsNC90LjRjyBNYWtlcnMgQ29kaW5nIEJvb3RjYW1w!5e0!3m2!1sru!2skg!4v1617360115431!5m2!1sru!2skg" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="fab">
+                <span class="fab-action-button">
+                      <i class="fab-action-button__icon"></i>
+                  </span>
+                <ul class="fab-buttons">
+                  <li class="fab-buttons__item">
+                    <a href="#" class="fab-buttons__link" data-tooltip="Facebook">
+                      <i class="icon-material icon-material_fb"></i>
+                    </a>
+                  </li>
+                  <li class="fab-buttons__item">
+                    <a href="#" class="fab-buttons__link" data-tooltip="Twitter">
+                      <i class="icon-material icon-material_tw"></i>
+                    </a>
+                  </li>
+                  <li class="fab-buttons__item">
+                    <a href="#" class="fab-buttons__link" data-tooltip="Linkedin">
+                      <i class="icon-material icon-material_li"></i>
+                    </a>
+                  </li>
+                  <li class="fab-buttons__item">
+                    <a href="#" class="fab-buttons__link" data-tooltip="Google+">
+                      <i class="icon-material icon-material_gp"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+        </div>
+    </footer>
+</body>
+</html>
